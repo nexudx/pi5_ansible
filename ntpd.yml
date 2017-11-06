@@ -1,2 +1,7 @@
 ---
 - hosts: meiner
+- name: install ntpd
+   apt: 
+    name: ntpd
+    state: latest
+    update_cache: yes
