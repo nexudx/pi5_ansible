@@ -1,0 +1,10 @@
+[meiner]
+10.2.78.104
+
+[nichtmeiner]
+10.2.78.103
+10.2.78.102
+10.2.78.105
+
+[meiner:vars]
+ansible_ssh_user=pi
